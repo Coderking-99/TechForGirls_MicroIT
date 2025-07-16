@@ -1,0 +1,111 @@
+/* Dark Mode Base */
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Neon Heading */
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0ff;
+  box-shadow: 0 0 10px #0ff;
+}
+
+/* Buttons */
+button {
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#shareBtn {
+  background-color: #25D366;
+  color: #fff;
+}
+
+#shareBtn:hover {
+  background-color: #1eb84b;
+  box-shadow: 0 0 15px #25D366, 0 0 30px #25D366;
+}
+
+#submitBtn {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+#submitBtn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 15px #007BFF, 0 0 30px #007BFF;
+}
+
+/* Extra Elements */
+#shareCount, #shareStatus {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+#successMessage {
+  color: #0f0;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 5px #0f0;
+}
+
+small {
+  display: block;
+  font-size: 0.85em;
+  color: #aaa;
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+/* Link Styling */
+a {
+  color: #0ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
